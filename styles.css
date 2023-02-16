@@ -1,0 +1,133 @@
+body, html {
+    margin: 0;
+    --white--: #fefefe;
+    --green--: #8cda6c;
+    --skyblue--: #3a83b2;
+    --blue--: #061822;
+}
+
+body {
+    background-color: var(--blue--);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+body>div:first-child {
+    width: 300px;
+    height: 300px;
+    background-color: var(--skyblue--);
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+body>div::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 15px;
+    background-color: var(--green--);
+    top: 0;
+    border-radius: 20px;
+    margin-left: 90px;
+    margin-top: 160px;
+    box-shadow:
+
+        0px 5px var(--green--),
+        /*Figura 2*/
+        40px -40px var(--green--),
+        37px -45px var(--green--),
+        35px -40px var(--green--),
+        35px -35px var(--green--),
+        37px -30px var(--green--),
+        48px -45px var(--green--),
+        50px -40px var(--green--),
+        50px -35px var(--green--),
+        48px -30px var(--green--),
+        /*Figura 3*/
+        30px -70px var(--green--),
+        27px -75px var(--green--),
+        26px -80px var(--green--),
+        27px -85px var(--green--),
+        30px -90px var(--green--),
+        66px -70px var(--green--),
+        68px -75px var(--green--),
+        70px -80px var(--green--),
+        68px -85px var(--green--),
+        66px -90px var(--green--),
+        86px -70px var(--green--),
+        88px -75px var(--green--),
+        90px -80px var(--green--),
+        88px -85px var(--green--),
+        86px -90px var(--green--),
+        /*Figura 4*/
+        5px -58px var(--skyblue--),
+        75px -58px var(--skyblue--),
+        40px -58px var(--green--),
+        /*Figura 5*/
+        -110px -5px var(--green--),
+        -108px -10px var(--green--),
+        -106px -15px var(--green--),
+        -108px -20px var(--green--),
+        -110px -20px var(--green--),
+        /*Figura 6*/
+        77px 38px var(--green--),
+        73px 40px var(--green--),
+        71px 45px var(--green--),
+        70px 50px var(--green--),
+        71px 55px var(--green--),
+        73px 60px var(--green--),
+        77px 62px var(--green--),
+
+        90px 38px var(--green--),
+        90px 40px var(--green--),
+        90px 45px var(--green--),
+        90px 50px var(--green--),
+        90px 55px var(--green--),
+        90px 60px var(--green--),
+        90px 62px var(--green--),
+
+        123px 38px var(--green--),
+        127px 40px var(--green--),
+        129px 45px var(--green--),
+        130px 50px var(--green--),
+        129px 55px var(--green--),
+        127px 60px var(--green--),
+        123px 62px var(--green--),
+
+        /*Figura 7*/
+        20px 76px var(--skyblue--),
+        30px 76px var(--skyblue--),
+        45px 76px var(--skyblue--),
+        50px 76px var(--skyblue--),
+        65px 76px var(--skyblue--),
+        135px 76px var(--skyblue--),
+        100px 76px var(--green--),
+
+        /*Figura 8*/
+        31px 90px var(--green--),
+        30px 95px var(--green--),
+        31px 100px var(--green--),
+
+        40px 90px var(--green--),
+        40px 95px var(--green--),
+        40px 100px var(--green--),
+        75px 90px var(--green--),
+        75px 95px var(--green--),
+        75px 100px var(--green--),
+        110px 90px var(--green--),
+        110px 95px var(--green--),
+        110px 100px var(--green--),
+        130px 90px var(--green--),
+        130px 95px var(--green--),
+        130px 100px var(--green--),
+        
+        /*Figura 9*/
+        200px -10px var(--green--)
+
+
+
+}
